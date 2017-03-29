@@ -8,7 +8,7 @@ using namespace cv;
 
 class CameraCalibrator
 {
-private:
+public:
 	//世界坐标
 	vector <vector<Point3f >> objectPoints;
 	//图像坐标

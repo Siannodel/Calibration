@@ -40,6 +40,21 @@ int main()
 	imshow("原图像", image2);
 	imshow("去畸变", uImage2);
 	waitKey(0);
+
+	//局部去畸变测试
+	Mat image3 = image2(Rect(350,40,750,120));
+	Mat maprect1 = Cc.map1(Rect(350, 40, 750, 120))-350;
+	Mat maprect2 = Cc.map2(Rect(350, 40, 750, 120))-40;
+	Mat uImage3;
+	double time;
+	time = (double)getTickCount();
+	cv::remap(image3, uImage3, maprect1, maprect2, INTER_LINEAR);
+	time = 1000 * ((double)getTickCount() - time) / getTickFrequency();
+cout << time << endl;
+	imshow("原图像区域", image3);
+	imshow("去畸变后的区域", uImage3);
+
+	waitKey(0);
 	system("pause");
 	return 0;
 }

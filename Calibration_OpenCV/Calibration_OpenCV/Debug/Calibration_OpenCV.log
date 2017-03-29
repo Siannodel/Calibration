@@ -1,9 +1,10 @@
-﻿  Calibration_OpenCV.cpp
+﻿  stdafx.cpp
+  Calibration_OpenCV.cpp
 c:\opencv3.0\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 c:\opencv3.0\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 c:\opencv3.0\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 c:\opencv3.0\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-f:\study\myproject\calibration_opencv\calibration_opencv\calibration.h(46): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-f:\study\myproject\calibration_opencv\calibration_opencv\calibration.h(52): warning C4018: “<”: 有符号/无符号不匹配
-  Calibration_OpenCV.vcxproj -> F:\study\MyProject\Calibration_OpenCV\Debug\Calibration_OpenCV.exe
-  Calibration_OpenCV.vcxproj -> F:\study\MyProject\Calibration_OpenCV\Debug\Calibration_OpenCV.pdb (Full PDB)
+c:\users\82630\documents\github\calibration\calibration_opencv\calibration_opencv\calibration.h(46): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\82630\documents\github\calibration\calibration_opencv\calibration_opencv\calibration.h(52): warning C4018: “<”: 有符号/无符号不匹配
+  Calibration_OpenCV.vcxproj -> C:\Users\82630\Documents\GitHub\Calibration\Calibration_OpenCV\Debug\Calibration_OpenCV.exe
+  Calibration_OpenCV.vcxproj -> C:\Users\82630\Documents\GitHub\Calibration\Calibration_OpenCV\Debug\Calibration_OpenCV.pdb (Full PDB)
